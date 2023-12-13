@@ -1,0 +1,18 @@
+* {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: deepskyblue;
+}
+
+.buscador{
+  border: none;
+  width: 350px;
+  border-radius: 10px;
+}

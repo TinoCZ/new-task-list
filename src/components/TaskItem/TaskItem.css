@@ -1,0 +1,39 @@
+.tarea-container {
+    display: inline-block;
+  }
+  
+  .tarea {
+    margin-top: 10px;
+    margin-right: 10px; /* Añadido para espacio entre elementos */
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #3333;
+    background-color: rgba(0, 255, 255, 0.747);
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #4444;
+  }
+  
+  .tarea button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 10px;
+    color: #000;
+    background-color: deepskyblue;
+    cursor: pointer;
+  }
+
+  .tarea button:hover{
+    color: white;
+    background-color: rgb(4, 162, 214);
+    
+
+  }
+  
+
+@media (max-width:480px) {
+   .tarea-container{
+      display: flex;
+      justify-content: center;
+   }
+}
