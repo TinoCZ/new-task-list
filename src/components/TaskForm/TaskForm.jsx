@@ -44,7 +44,7 @@ import './TaskForm.css'
                                 <input className='input' type="text" id='title' name='title' placeholder='Titulo ejemplo' />
                             </div>
                             <div className="input-container">
-                                <label htmlFor="description">Ingresa una despcripcion</label>
+                                <label htmlFor="description">Ingresa una descripción</label>
                                 <textarea name="description" id="description" placeholder='Alguna aclaracion/descripcion'></textarea>
                             </div>
                             <div className='btn-container'>
